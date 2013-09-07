@@ -3,12 +3,8 @@ package com.paad.todolist;
 import android.app.FragmentManager;
 import android.os.Bundle;
 import android.app.Activity;
-import android.view.KeyEvent;
 import android.view.Menu;
-import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ListView;
 
 
 import java.util.ArrayList;
@@ -38,31 +34,6 @@ public class ToDoListActivity extends Activity implements NewItemFragment.OnNewI
 
         // Bind the array adapter ot the listview
         todoListFragment.setListAdapter(aa);
-
-
-
-        /*
-        // Bind the Array Adapter to the List View
-        myListView.setAdapter(aa);
-
-        // Listen for D-pad or Enter key to be pressed and clear field
-        myEditText.setOnKeyListener(new View.OnKeyListener() {
-            public boolean onKey(View v, int keyCode, KeyEvent event){
-               if (event.getAction() == KeyEvent.ACTION_DOWN)
-                   if ((keyCode == KeyEvent.KEYCODE_DPAD_CENTER) ||
-                           (keyCode == KeyEvent.KEYCODE_ENTER)){
-                       // Enter the text the user inputed
-                       todoItems.add(0, myEditText.getText().toString());
-                       // Update the ListView
-                       aa.notifyDataSetChanged();
-                       // Clear the EditText box for new input
-                       myEditText.setText("");
-                       return true;
-                   }
-                return false;
-            }
-        });
-        */
     }
 
 

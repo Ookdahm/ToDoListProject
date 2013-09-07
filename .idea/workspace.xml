@@ -21,15 +21,7 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="140290e2-168d-4cfe-8651-96221ab34443" name="Default" comment="F">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/NewItemFragment.java" afterPath="$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/NewItemFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList/ToDoList.iml" afterPath="$PROJECT_DIR$/ToDoList/ToDoList.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/ToDoListActivity.java" afterPath="$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/ToDoListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/ToDoListFragment.java" afterPath="$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/ToDoListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList/build.gradle" afterPath="$PROJECT_DIR$/ToDoList/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoList/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/ToDoList/src/main/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="140290e2-168d-4cfe-8651-96221ab34443" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ToDoList.iws" />
@@ -144,7 +136,7 @@
       <file leaf-file-name="NewItemFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/NewItemFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="674" selection-end="726" vertical-scroll-proportion="0.5580808" vertical-offset="187" max-vertical-offset="1122">
+            <state line="24" column="0" selection-start="674" selection-end="726" vertical-scroll-proportion="0.39963832" vertical-offset="187" max-vertical-offset="1122">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -855,6 +847,11 @@
       <created>1378389479176</created>
       <updated>1378389479176</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed line number 25 to point to &quot;myEditText&quot;">
+      <created>1378523468594</created>
+      <updated>1378523468595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -879,10 +876,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19471489" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -892,13 +889,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33009708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41307372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41307372" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24935567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.5869263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.8052851" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30458972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -945,6 +942,8 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="Fixed line number 25 to point to &quot;myEditText&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed line number 25 to point to &quot;myEditText&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1058,7 +1057,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ToDoList/src/main/java/com/paad/todolist/NewItemFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="674" selection-end="726" vertical-scroll-proportion="0.5580808" vertical-offset="187" max-vertical-offset="1122">
+        <state line="24" column="0" selection-start="674" selection-end="726" vertical-scroll-proportion="0.39963832" vertical-offset="187" max-vertical-offset="1122">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -13,12 +13,12 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ToDoListActivity extends Activity implements NewItemFragment.OnNewItemAddedListener{
+public class ToDoListActivity extends Activity implements NewItemFragment.OnNewItemAddedListener {
 
     private ArrayAdapter<String>aa;
     private ArrayList<String> todoItems;
 
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
@@ -32,10 +32,15 @@ public class ToDoListActivity extends Activity implements NewItemFragment.OnNewI
         todoItems = new ArrayList<String>();
 
         // Create the Array Adapter to bind the array to the List View
-        aa = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, todoItems);
+        aa = new ArrayAdapter<String>(this,
+                                        android.R.layout.simple_list_item_1,
+                                        todoItems);
 
         // Bind the array adapter ot the listview
         todoListFragment.setListAdapter(aa);
+
+
+
         /*
         // Bind the Array Adapter to the List View
         myListView.setAdapter(aa);
@@ -69,7 +74,7 @@ public class ToDoListActivity extends Activity implements NewItemFragment.OnNewI
     }
 
 
-    @Override
+
     public void onNewItemAdded(String newItem) {
         todoItems.add(newItem);
         aa.notifyDataSetChanged();

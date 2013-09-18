@@ -11,8 +11,9 @@ import java.util.ArrayList;
 
 public class ToDoListActivity extends Activity implements NewItemFragment.OnNewItemAddedListener {
 
-    private ArrayAdapter<String>aa;
-    private ArrayList<String> todoItems;
+    //private ArrayAdapter<ToDoItem>aa;
+    private ToDoItemAdapter aa;
+    private ArrayList<ToDoItem> todoItems;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +26,7 @@ public class ToDoListActivity extends Activity implements NewItemFragment.OnNewI
                 (ToDoListFragment)fm.findFragmentById(R.id.TodoListFragment);
 
         // Create the Array list of to do items
-        todoItems = new ArrayList<String>();
+        todoItems = new ArrayList<ToDoItem>();
 
         // Create the Array Adapter to bind the array to the List View
         /*
@@ -35,7 +36,7 @@ public class ToDoListActivity extends Activity implements NewItemFragment.OnNewI
         */
         // Bind the array adapter ot the listview
         int resID = R.layout.todolist_item;
-        aa = new ArrayAdapter<String>(this, resID, todoItems);
+        aa = new ToDoItemAdapter(this, resID, todoItems);
         todoListFragment.setListAdapter(aa);
     }
 
@@ -50,7 +51,8 @@ public class ToDoListActivity extends Activity implements NewItemFragment.OnNewI
 
 
     public void onNewItemAdded(String newItem) {
-        todoItems.add(newItem);
+        ToDoItem newToDoItem = new ToDoItem(newItem);
+        todoItems.add(newToDoItem);
         aa.notifyDataSetChanged();
     }
 }
